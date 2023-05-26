@@ -1,0 +1,26 @@
+{
+  "name": "serveur",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon reg_log.js"
+  },
+  "author": "adem",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "jsrsasign": "^10.6.1",
+    "jsrsasign-util": "^1.0.5",
+    "multer": "^1.4.5-lts.1",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.1.2",
+    "nodemon": "^2.0.21",
+    "promise": "^8.3.0"
+  },
+  "description": ""
+}
